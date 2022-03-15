@@ -1,0 +1,151 @@
+header{
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+    z-index: 5;
+    background-color: white;
+}
+
+.ham,.you{
+    width: 30px;
+    height: 30px;
+    
+}
+.ham{
+    margin-left: 25px;
+}
+.ham:hover{
+    cursor: pointer;
+}
+.you{
+    margin-left: 30px;
+}
+.you:hover{
+    cursor: pointer;
+}
+h1{
+   font-size:x-large; 
+   margin-top: 1.5px;
+   margin-left: 2px;
+}
+h1:hover{
+    cursor: pointer;
+}
+button{
+    width: 50px;
+    height: 41px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.upload,.micro,.space,.bell,.gmail{
+    margin: 10px;
+    
+    width: 30px;
+     height:30px;
+}
+.micro{
+    margin-top: 4px;
+}
+.micro:hover{
+    cursor: pointer;
+}
+.upload{
+    margin-left:  120px;;
+    margin-top: 5px;
+}
+.upload:hover{
+    cursor: pointer;
+}
+.space{
+   
+    margin-top: 5px;
+}
+.space:hover{
+    cursor: pointer;
+}
+.bell{
+    
+    margin-top: 5px;
+}
+.bell:hover{
+    cursor: pointer;
+}
+.gmail{
+    
+    margin-top: 5px;
+}
+.gmail:hover{
+    cursor: pointer;
+}
+input{
+    margin-left: 100px;
+    width: 750px;
+    height: 35px;
+}
+
+.content{
+    display: flex;
+    width: 300px;
+
+    margin-left: 250px;
+    position: relative;
+    top: 6rem;
+    margin-bottom: -5rem;
+   
+    
+    
+    justify-content: space-between ;
+}
+.content>div .para{
+    margin: 5rem;
+    margin-top: -2rem;
+    margin-left: 4rem ;
+} 
+
+.content>div{
+    margin: 15px;
+}
+
+
+.content>div>img:hover{
+    cursor: pointer;
+}
+
+.content>div>p:hover{
+    cursor: pointer;
+}
+.listone{
+    list-style-type:None;
+    
+}
+.listone>li{
+    margin: 25px;
+    position: relative;
+    right: 46px;
+}
+.containerone{
+    margin-top: 35px;
+    position: fixed;
+}
+
+.betline{
+    width: 90%;
+    background-color: black;
+    margin-top: 100px;
+    height: 1px;
+    
+}
+.containerone>ul>p{
+    margin-top: 1rem;
+}
+.containerone>ul>li{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+
+
+
+
