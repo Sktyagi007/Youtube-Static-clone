@@ -1,9 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     display: flex;
     position: fixed;
     justify-content: space-evenly;
     z-index: 5;
     background-color: white;
+    height: 5rem;
 }
 
 .ham,.you{
@@ -126,8 +131,9 @@ input{
     right: 46px;
 }
 .containerone{
-    margin-top: 35px;
+    margin-top: 4rem;
     position: fixed;
+    margin-left: 3rem;
 }
 
 .betline{
